@@ -21,10 +21,6 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.util.Date;
 
-/**
- * Create jpeg to dcm
- * @author Gokcan
- */
 class Jpgdcm {
     private static int  jpgLen;
     private String transferSyntax = UID.JPEGLossless;
