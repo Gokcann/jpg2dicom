@@ -116,6 +116,7 @@ class Jpgdcm {
             dicom.setString(Tag.LossyImageCompression, VR.CS);
             dicom.setString(Tag.PatientOrientation, VR.CS,"LE");
             dicom.setString(Tag.QueryRetrieveLevel, VR.CS,"STUDY");
+            dicom.setString(Tag.CreationDate, VR.CS,"STUDY");
             //dicom.setString(Tag.AcquisitionContextSequence, VR.SQ, "0");
 
             //new attributes  // FileMetaInformationVersion arastirilacak string degil binary veri aliyor...
